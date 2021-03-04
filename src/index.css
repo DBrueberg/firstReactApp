@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+Devin Brueberg
+ CSC435 Adv Web App Development
+ Assignment 1 - index.css for index.html
+ March 3, 2021
+ */
+
+/*  Setting the background to white and the 
+    height to 100% for a responsive page.
+*/
+html {
+  background-color: white;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*  The body will be a little darker to stand out 
+    and will be only 50% of the view screen. This 
+    is to draw the eye to the content. Body will 
+    be centered in the screen.
+*/
+body {
+  background-color: bisque;
+  border-radius: .5em;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 1em;
+  margin: 1em auto;
+  overflow: hidden;
+}
+
+/*  Adding a width to the root id for a responsive 
+    page.
+*/
+#root {
+  width: 100%;
+}
+
+/*  In order to make the app responsive the text is 
+    set to 70% to prevent overflow issues.
+*/
+@media screen and (max-width: 244px) {
+  html {
+      font-size: 70%;
+  }
 }
