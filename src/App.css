@@ -22,8 +22,6 @@ h1 {
   overflow: hidden;
 }
 
-
-
 /*  The ul that holds the name, class, and date will 
     be in a horizontal flex box that will wrap when 
     the viewport is shrunk.
